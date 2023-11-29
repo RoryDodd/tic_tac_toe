@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6B6E70">
+
+    <TextView
+        android:id="@+id/saveDisplay"
+        android:layout_width="345dp"
+        android:layout_height="66dp"
+        android:text="TextView"
+        android:textSize="35sp"
+        android:textFontWeight="800"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.12" />
+
+    <EditText
+        android:id="@+id/nameInput"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:ems="10"
+        android:focusable="auto"
+        android:hint="@string/name"
+        android:inputType="text"
+        android:minHeight="48dp"
+        android:textColorHint="#E1F5FE"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.29"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/save"
+        android:layout_width="178dp"
+        android:layout_height="60dp"
+        android:text="@string/save"
+        android:textSize="25sp"
+        android:background="@drawable/styles"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="317dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.42"/>
+
+    <Button
+        android:id="@+id/playAgain"
+        android:layout_width="178dp"
+        android:layout_height="60dp"
+        android:text="@string/playAgain"
+        android:textSize="25sp"
+        android:background="@drawable/styles"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="390dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.56"/>
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="178dp"
+        android:layout_height="60dp"
+        android:text="@string/exit"
+        android:textSize="25sp"
+        android:background="@drawable/styles"
+        tools:layout_editor_absoluteX="232dp"
+        tools:layout_editor_absoluteY="388dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.7"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

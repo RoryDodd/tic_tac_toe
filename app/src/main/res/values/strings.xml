@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Tic-Tac-Toe</string>
+    <string name="start">Play</string>
+    <string name="playAgain">Play Again</string>
+    <string name="scores">Scores</string>
+    <string name="exit">Exit</string>
+    <string name="save">Save</string>
+    <string name="name">Enter Name</string>
+    <string name="saved">Saved Games</string>
+    <string name="message">The most exciting game you\'ll ever play! \nEnjoy the fast paced game that
+            is Tic-Tac-Toe</string>
+</resources>
